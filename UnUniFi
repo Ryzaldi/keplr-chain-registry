@@ -1,0 +1,45 @@
+{
+  "chainId": "ununifi-beta",
+  "chainName": "UnUniFi (Beta)",
+  "rpc": "wss://ununifi-beta-test.cauchye.net:26658",
+  "rest": "https://ununifi-beta-test.cauchye.net:1318",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "ununifi",
+    "bech32PrefixAccPub": "ununifipub",
+    "bech32PrefixValAddr": "ununifivaloper",
+    "bech32PrefixValPub": "ununifivaloperpub",
+    "bech32PrefixConsAddr": "ununifivalcons",
+    "bech32PrefixConsPub": "ununifivalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "GUU",
+      "coinMinimalDenom": "uguu",
+      "coinDecimals": 6,
+      "coinGeckoId": "ununifi"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "GUU",
+      "coinMinimalDenom": "uguu",
+      "coinDecimals": 6,
+      "coinGeckoId": "ununifi",
+      "gasPriceStep": {
+        "low": 0,
+        "average": 0.01,
+        "high": 0.03
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "GUU",
+    "coinMinimalDenom": "uguu",
+    "coinDecimals": 6,
+    "coinGeckoId": "ununifi"
+  },
+  "beta": true
+}
